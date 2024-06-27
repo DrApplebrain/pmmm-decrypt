@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ascii Art Converter</title>
+</head>
+<body>
+    <header>
+        <h1>Ascii Encryption/Decryption</h1>
+        <div class="buttons">
+          <button class="encryphead">Encryption</button>
+          <div></div>
+          <button class="decrypthead">Decryption</button>
+        </div>
+        
+    </header>
+    <div class="text">
+      <textarea class="encrypt-text"></textarea>
+      <div class="buttonUse">
+        <button class="encrypt">Encrypt</button>
+        <button class="decrypt">Decrypt</button>
+        
+      </div>
+      
+      <textarea class="decrypt-text"></textarea>
+    </div>
+
+    
+    
+    <div class="pictureWrapper">
+      <div class="picture">
+        <input type="file" name="picture" required/>
+        <canvas id="preview"></canvas>
+      </div>
+      <div></div>
+      
+      <div><pre id="ascii"></pre><button class="copy">Copy Ascii text</button></div>
+      
+    </div>
+    
+
+    
+    
+    <script src="../src/index.js"></script>
+</body>
+</html>
