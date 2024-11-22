@@ -59,7 +59,7 @@ buttonDecrypt.addEventListener('click', function() {
             document.body.appendChild(pre);
             const { width, height } = pre.getBoundingClientRect();
             document.body.removeChild(pre);
-
+//Ho
             return height / width;
         };
 
